@@ -1,9 +1,9 @@
 # AplicacaoCompleta
 
-Repositório do ASP.NET MVC Completa
+#Repositório do ASP.NET MVC Completa#
 Este repositório contém um projeto completo utilizando a tecnologia ASP.NET MVC, que é um framework de desenvolvimento web da Microsoft. O ASP.NET MVC oferece uma abordagem baseada em modelo, visão e controlador (MVC) para construir aplicativos da web robustos e flexíveis.
 
-Descrição do Projeto
+#Descrição do Projeto#
 O objetivo deste projeto é demonstrar as melhores práticas e padrões recomendados para o desenvolvimento de um aplicativo da web utilizando o ASP.NET MVC. Ele inclui uma estrutura organizada, separando as preocupações de modelo, visão e controlador, o que facilita a manutenção, testabilidade e escalabilidade do aplicativo.
 
 O projeto está estruturado da seguinte maneira:
@@ -22,7 +22,7 @@ Helpers: Esta pasta contém classes auxiliares e utilitárias que podem ser util
 
 Config: Aqui estão os arquivos de configuração do aplicativo, onde você pode definir várias configurações, como roteamento, autenticação, conexões de banco de dados, etc.
 
-Como Utilizar
+#Como Utilizar#
 Para utilizar este projeto, siga as etapas abaixo:
 
 Clone este repositório em sua máquina local.
@@ -37,5 +37,5 @@ Execute as migrações do banco de dados para criar as tabelas e as estruturas n
 
 Inicie o aplicativo.
 
-Contribuição
+#Contribuição#
 Contribuições são bem-vindas! Se você encontrar algum problema, tiver alguma sugestão ou desejar adicionar novos recursos a este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
