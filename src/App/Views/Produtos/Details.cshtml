@@ -1,0 +1,60 @@
+﻿@model App.ViewModels.ProdutoViewModel
+
+@{
+    ViewData["Title"] = "Detalhe do produto - " + Model.Nome;
+}
+
+<h3 style="padding-top: 50px">@ViewData["Title"]</h3>
+
+<hr />
+<div class="row">
+    <dt class="col-sm-4">
+        <img src="~/imagens/@Model.Imagem" alt="@Model.Imagem" style="width: 300px; height: 428px" ? />
+    </dt>
+</div>
+
+<div>
+    <dl>
+        <dt class="col-sm-6">
+            @Html.DisplayNameFor(model => model.FornecedorId)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayFor(model => model.Fornecedor.Nome)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayNameFor(model => model.Nome)
+        </dd>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nome)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Ativo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Ativo)
+        </dd>
+        <dd class="col-sm-10">
+            @Html.DisplayNameFor(model => model.DataCadastro)
+        </dd>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DataCadastro)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <input type="submit" class="btn btn-primary" asp-action="Edit" asp-route-id="@Model?.Id">Editar/>
+    <a class="btn btn-info" href="javascript:window.hitory.back()">voltar</a>
+</div>
